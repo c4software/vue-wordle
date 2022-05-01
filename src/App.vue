@@ -17,7 +17,7 @@
   // Returns the current route location. Equivalent to using $route inside templates.
   const route = useRoute()
 
-  // Is currentRoot the / ?
+  // Is currentRoot the homepage ?
   const isRoot = $computed(() => route.path == '/')
 </script>
 
